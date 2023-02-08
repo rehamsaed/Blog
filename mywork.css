@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Solway', serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+--main-color:#3ac7c7;
+--text-color:#fff;
+--bg-color:#0f6296;
+--big-font:5rem;
+--h2-font:2.2rem;
+--p-font:0.9rem;
+
+}
+::selection{
+    background: var(--main-color);
+    color: var(--text-color);
+
+}
+body{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    width:944px;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background:#030f21;
+   
+
+}
+.logo{
+    font-weight: 600;
+    font-size: 70px;
+    margin-left: -109px;
+}
+.navbar{
+    display: flex;
+
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: 20px;
+
+    padding: 10px 20px;
+  font-weight: 500;
+}
+.navbar a:hover{
+    color: var(--main-color);
+    transition: 0.4s;
+}
+#menue-icon{
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.home1{
+    margin-top: 63px;
+    position: absolute;
+  
+    margin: 227px;
+    margin-left: 336px; 
+
+}
+
+
+section{
+    padding: 150px;
+    position:relative;
+    top: 19px;
+    left: 100px;
+   
+   
+}
+section p{
+    position: relative;
+    margin-left: -195px;
+    font-size: 55px;
+    color: #030f21;
+    transition-duration: 1s;
+    transition-property: all;
+}
+section p:hover{
+    margin-left: 30px;
+    color: white;
+ 
+}
+#img1{
+    position: absolute;
+    margin-left: -189px;
+    margin-top: 21px;
+    width: 626px;
+    height: -25px;
+
+}
+#img2{
+    margin-left: 589px;
+    margin-top: 21px;
+    width: 626px;
+    height: -25px;
+
+}
+#img3{
+    position: absolute;
+    margin-left: -189px;
+    margin-top: 21px;
+    width: 626px;
+    height: -25px;
+
+}
+#img4{
+    margin-left: 589px;
+    margin-top: 22px;
+    width: 623px;
+    height: 445px;
+
+}
+#img5{
+    position: absolute;
+    margin-left: -189px;
+    margin-top: 21px;
+    width: 626px;
+    height: 485px
+
+}
+#img6{
+    margin-left: 589px;
+    margin-top: 27px;
+    width: 626px;
+    height: 485px;
+}
+#img8{
+    position: absolute;
+    margin-left: -189px;
+    margin-top: 21px;
+    width: 626px;
+    height: 477px;
+
+}
+#img9{
+    margin-left: 589px;
+    margin-top: 21px;
+    width: 626px;
+    height: 478px;
+
+}
+
+
